@@ -72,3 +72,9 @@
 &emsp;5）所有架构都适用吗？
 
 &emsp;答：不能说所有，只能说很多。amd64可以，arm64也可以，loongarch64（新世界）理论上也行，riscv64好像也可以。。。
+
+&emsp;6）哦，对了，可以通过添加lib库的方式支持Linux吗？
+
+&emsp;答：诶，你这个提问好像可以哦。把renpy-8.X.X-sdk\lib里的py3-linux-aarch64、py3-linux-x86_64都复制到游戏里的lib文件夹里，sdk根目录下的renpy.sh复制到游戏根目录。再把renpy改为 游戏名 就行。
+
+&emsp;_**注：版本要对应，不要随便复制粘贴！**_
