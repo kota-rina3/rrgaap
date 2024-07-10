@@ -77,4 +77,4 @@
 
 &emsp;答：诶，你这个提问好像可以哦。把renpy-8.X.X-sdk\lib里的py3-linux-aarch64、py3-linux-x86_64都复制到游戏里的lib文件夹里，sdk根目录下的renpy.sh复制到游戏根目录。再把renpy改为 游戏名 就行。
 
-&emsp;_**注：版本要对应，不要随便复制粘贴！**_
+&emsp;_**注：仅限于amd64、arm64架构。sdk版本要和游戏版本对应！**_
